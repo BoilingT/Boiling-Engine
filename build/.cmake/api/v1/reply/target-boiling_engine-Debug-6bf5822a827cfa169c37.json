@@ -1,0 +1,247 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/bin/boiling_engine.exe"
+		},
+		{
+			"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/bin/boiling_engine.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_directories",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/include/glad"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/include/GLFW"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/include/glm"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/include/KHR"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/include/STB"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/include/glad"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/include/GLFW"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/include/glm"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/include/KHR"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/include/STB"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"id" : "boiling_engine::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Xlinker /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-fuse-ld=lld-link",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L\"C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/lib/glfw\"",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lglfw3.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "boiling_engine",
+	"nameOnDisk" : "boiling_engine.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/glad.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Engine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Console.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Window.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Transform.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Game.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

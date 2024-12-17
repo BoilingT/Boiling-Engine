@@ -12,7 +12,7 @@ Window::Window(std::string _title)
 
 int Window::init()
 {
-    //Init
+    // Init
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
@@ -23,7 +23,7 @@ int Window::init()
 
 int Window::open()
 {
-    //Open window
+    // Open window
     window = glfwCreateWindow(700, 700, title.c_str(), NULL, NULL);
     if (!window)
     {
@@ -36,7 +36,7 @@ int Window::open()
     return 0;
 }
 
-GLFWwindow* Window::get()
+GLFWwindow *Window::get()
 {
     return this->window;
 }
@@ -46,4 +46,3 @@ int Window::setTitle(std::string _title)
     glfwSetWindowTitle(window, _title.c_str());
     return 0;
 }
-

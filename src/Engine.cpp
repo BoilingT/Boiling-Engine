@@ -1,12 +1,9 @@
 #include "Engine.h"
+#include "Console.h"
 
 Engine::Engine() : window()
 {
-	Console::log("Initializing Engine...");
-
-	window.init();
-
-	Console::log("Engine Initialized");
+    window.init();
 }
 
 Engine::~Engine()
@@ -15,49 +12,60 @@ Engine::~Engine()
 
 int Engine::start()
 {
-	Console::log("Starting Engine...");
-	window.open();
+    Console::log("Starting Engine...");
+    window.open();
 
-	if (!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress))
-	{
-		Console::error("Failed to initialize GLAD");
-		return -1;
-	}
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+    {
+        Console::error("Failed to initialize GLAD");
+        return -1;
+    }
 
-	glViewport(0, 0, 700, 700);
+    glViewport(0, 0, window_width, window_height);
 
+    init();
 
-	while (!glfwWindowShouldClose(window.get()))
-	{
-		poll();
-		render();
-		update();
+    while (!glfwWindowShouldClose(window.get()))
+    {
+        poll();
+        render();
+        update();
+        glfwPollEvents();
+        glfwSwapBuffers(window.get());
+    }
 
-		glfwPollEvents();
-		glfwSwapBuffers(window.get());
-	}
+    Console::log("Engine Stopped");
 
-	Console::log("Engine Stopped");
-
-	return 0;
+    return 0;
 }
 
-int Engine::render()
+World_Object obj(0, 0, 0);
+
+int Engine::init()
 {
-	glClearColor(0.1f, 0, 0, 1);
-	glClear(GL_COLOR_BUFFER_BIT);
-	return 0;
+    Console::log("Initializing Engine...");
+    Console::log("Engine Initialized");
+    return 0;
 }
 
-int Engine::update()
+void Engine::clear(float r, float g, float b)
 {
-	return 0;
+    glClearColor(r, g, b, 1);
+    glClear(GL_COLOR_BUFFER_BIT);
+}
+
+void Engine::render()
+{
+    return;
+}
+
+void Engine::update()
+{
+    return;
 }
 
 int Engine::poll()
 {
-	if (glfwGetKey(window.get(), GLFW_KEY_ESCAPE) == GLFW_PRESS)
-		glfwSetWindowShouldClose(window.get(), true);
-	return 0;
+    if (glfwGetKey(window.get(), GLFW_KEY_ESCAPE) == GLFW_PRESS) glfwSetWindowShouldClose(window.get(), true);
+    return 0;
 }
-

@@ -1,0 +1,44 @@
+[
+{
+  "directory": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/build",
+  "command": "C:/LLVM/bin/clang++.exe  @CMakeFiles/boiling_engine.dir/includes_CXX.rsp -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles/boiling_engine.dir/src/main.cpp.obj -c \"C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/main.cpp\"",
+  "file": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/main.cpp",
+  "output": "CMakeFiles/boiling_engine.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/build",
+  "command": "C:/LLVM/bin/clang.exe  @CMakeFiles/boiling_engine.dir/includes_C.rsp -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles/boiling_engine.dir/src/glad.c.obj -c \"C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/glad.c\"",
+  "file": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/glad.c",
+  "output": "CMakeFiles/boiling_engine.dir/src/glad.c.obj"
+},
+{
+  "directory": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/build",
+  "command": "C:/LLVM/bin/clang++.exe  @CMakeFiles/boiling_engine.dir/includes_CXX.rsp -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles/boiling_engine.dir/src/Engine.cpp.obj -c \"C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Engine.cpp\"",
+  "file": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Engine.cpp",
+  "output": "CMakeFiles/boiling_engine.dir/src/Engine.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/build",
+  "command": "C:/LLVM/bin/clang++.exe  @CMakeFiles/boiling_engine.dir/includes_CXX.rsp -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles/boiling_engine.dir/src/Console.cpp.obj -c \"C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Console.cpp\"",
+  "file": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Console.cpp",
+  "output": "CMakeFiles/boiling_engine.dir/src/Console.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/build",
+  "command": "C:/LLVM/bin/clang++.exe  @CMakeFiles/boiling_engine.dir/includes_CXX.rsp -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles/boiling_engine.dir/src/Window.cpp.obj -c \"C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Window.cpp\"",
+  "file": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Window.cpp",
+  "output": "CMakeFiles/boiling_engine.dir/src/Window.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/build",
+  "command": "C:/LLVM/bin/clang++.exe  @CMakeFiles/boiling_engine.dir/includes_CXX.rsp -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles/boiling_engine.dir/src/Transform.cpp.obj -c \"C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Transform.cpp\"",
+  "file": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Transform.cpp",
+  "output": "CMakeFiles/boiling_engine.dir/src/Transform.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/build",
+  "command": "C:/LLVM/bin/clang++.exe  @CMakeFiles/boiling_engine.dir/includes_CXX.rsp -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles/boiling_engine.dir/src/Game.cpp.obj -c \"C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Game.cpp\"",
+  "file": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Game.cpp",
+  "output": "CMakeFiles/boiling_engine.dir/src/Game.cpp.obj"
+}
+]

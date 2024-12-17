@@ -1,27 +1,26 @@
 #pragma once
-#include <GLFW/glfw3.h>
+#include <glfw/glfw3.h>
 #include <string>
 #include "Console.h"
 
 class Window
 {
-private:
-	GLFWwindow* window = nullptr;
-	std::string title;
+  private:
+    GLFWwindow *window = nullptr;
+    std::string title;
 
-public:
-	Window();
+  public:
+    Window();
 
-	Window(std::string _title);
+    Window(std::string _title);
 
-	~Window()
-	{
-		glfwTerminate();
-	}
+    ~Window()
+    {
+        glfwTerminate();
+    }
 
-	int init();
-	int open();
-	int setTitle(std::string);
-	GLFWwindow* get();
+    int         init();
+    int         open();
+    int         setTitle(std::string);
+    GLFWwindow *get();
 };
-
