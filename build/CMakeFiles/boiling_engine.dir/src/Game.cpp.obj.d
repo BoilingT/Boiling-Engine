@@ -128,6 +128,9 @@ CMakeFiles/boiling_engine.dir/src/Game.cpp.obj: \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_xlocinfo_types.hpp \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\clocale \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22621.0\ucrt\locale.h \
+  C:\Users\tobbe\Documents\Programming\C++\OpenGL\ Engines\Boiling-Engine\src\Shader.h \
   C:\Users\tobbe\Documents\Programming\C++\OpenGL\ Engines\Boiling-Engine\src\World_object.h \
   C:\Users\tobbe\Documents\Programming\C++\OpenGL\ Engines\Boiling-Engine\src\Transform.h \
+  C:\Users\tobbe\Documents\Programming\C++\OpenGL\ Engines\Boiling-Engine\src\Entity.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\bitset \
   C:\Users\tobbe\Documents\Programming\C++\OpenGL\ Engines\Boiling-Engine\src\Triangle.h

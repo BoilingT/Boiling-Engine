@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tobbe\Documents\Programming\C++\OpenGL Engines\Boiling-Engine\vs19\CMakeFiles\07bed6dd13017152aa4a282d827588ae\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1FF51069-E7B1-30C9-8080-DDC7E8F21854}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

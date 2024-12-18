@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tobbe\Documents\Programming\C++\OpenGL Engines\Boiling-Engine\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tobbe\Documents\Programming\C++\OpenGL Engines\Boiling-Engine\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tobbe\Documents\Programming\C++\OpenGL Engines\Boiling-Engine\src\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tobbe\Documents\Programming\C++\OpenGL Engines\Boiling-Engine\src\Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tobbe\Documents\Programming\C++\OpenGL Engines\Boiling-Engine\src\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tobbe\Documents\Programming\C++\OpenGL Engines\Boiling-Engine\src\Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tobbe\Documents\Programming\C++\OpenGL Engines\Boiling-Engine\src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tobbe\Documents\Programming\C++\OpenGL Engines\Boiling-Engine\src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tobbe\Documents\Programming\C++\OpenGL Engines\Boiling-Engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{27CFEDDE-5887-36BF-B0CC-265E8F0DB4FD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

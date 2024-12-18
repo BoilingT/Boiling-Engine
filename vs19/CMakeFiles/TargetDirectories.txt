@@ -1,0 +1,4 @@
+C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/vs19/CMakeFiles/boiling_engine.dir
+C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/vs19/CMakeFiles/RUN_TESTS.dir
+C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/vs19/CMakeFiles/ALL_BUILD.dir
+C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/vs19/CMakeFiles/ZERO_CHECK.dir

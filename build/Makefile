@@ -211,6 +211,30 @@ src/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boiling_engine.dir/build.make CMakeFiles/boiling_engine.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
+src/Shader.obj: src/Shader.cpp.obj
+.PHONY : src/Shader.obj
+
+# target to build an object file
+src/Shader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boiling_engine.dir/build.make CMakeFiles/boiling_engine.dir/src/Shader.cpp.obj
+.PHONY : src/Shader.cpp.obj
+
+src/Shader.i: src/Shader.cpp.i
+.PHONY : src/Shader.i
+
+# target to preprocess a source file
+src/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boiling_engine.dir/build.make CMakeFiles/boiling_engine.dir/src/Shader.cpp.i
+.PHONY : src/Shader.cpp.i
+
+src/Shader.s: src/Shader.cpp.s
+.PHONY : src/Shader.s
+
+# target to generate assembly for a file
+src/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boiling_engine.dir/build.make CMakeFiles/boiling_engine.dir/src/Shader.cpp.s
+.PHONY : src/Shader.cpp.s
+
 src/Transform.obj: src/Transform.cpp.obj
 .PHONY : src/Transform.obj
 
@@ -326,6 +350,9 @@ help:
 	@echo "... src/Game.obj"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
+	@echo "... src/Shader.obj"
+	@echo "... src/Shader.i"
+	@echo "... src/Shader.s"
 	@echo "... src/Transform.obj"
 	@echo "... src/Transform.i"
 	@echo "... src/Transform.s"

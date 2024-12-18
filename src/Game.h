@@ -11,6 +11,6 @@ class Game : public Engine
     Game();
 
     void start();
-    void update();
-    void render();
+    // void update();
+    // void render();
 };

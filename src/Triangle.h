@@ -1,44 +1,42 @@
 #pragma once
 #include <glad/glad.h>
+#include <iostream>
+#include "Entity.h"
 
-class Render_Object
-{
-    virtual void render()
-    {
-        return;
-    }
-};
-
-class Triangle : public Render_Object
+class Triangle
 {
   private:
-    float vertices[0];
+    // clang-format off
+    std::vector<float> vertices = {
+        -0.5f, -0.5f, 0.0f,
+        0.5f, -0.5f, 0.0f,
+        0.0f,  0.5f, 0.0f
+    };
+    // clang-format on
+
     // Buffers
     unsigned int VBO, VAO, EBO;
 
+  public:
     Triangle()
     {
-        // Send vertex data to GPU
         glGenBuffers(1, &VBO);
-
-        glBindBuffer(GL_ARRAY_BUFFER, VBO);
-
-        glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
-        // Save configuration in a Vertex array object
-        glGenBuffers(1, &VAO);
+        glGenVertexArrays(1, &VAO);
 
         glBindVertexArray(VAO);
 
-        // Element buffer object (Optimization)
-        glGenBuffers(1, &EBO);
+        // Send vertex data to GPU
+        glBindBuffer(GL_ARRAY_BUFFER, VBO);
+        glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices.data(), GL_STATIC_DRAW);
 
-        glBindBuffer(GL_ARRAY_BUFFER, EBO);
+        // Specify how the data should be interpreted
+        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
+        glEnableVertexAttribArray(0);
     }
 
-  public:
     void render()
     {
-        return;
+        glBindVertexArray(VAO);
+        glDrawArrays(GL_TRIANGLES, 0, 3);
     }
 };

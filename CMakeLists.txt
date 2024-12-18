@@ -11,6 +11,7 @@ set(sources ${sources}
     src/Window.cpp
     src/Transform.cpp
     src/Game.cpp
+    src/Shader.cpp
 )
 
 add_executable(${PROJECT_NAME} ${sources})

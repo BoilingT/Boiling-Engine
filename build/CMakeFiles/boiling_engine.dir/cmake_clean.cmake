@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/boiling_engine.dir/src/Engine.cpp.obj.d"
   "CMakeFiles/boiling_engine.dir/src/Game.cpp.obj"
   "CMakeFiles/boiling_engine.dir/src/Game.cpp.obj.d"
+  "CMakeFiles/boiling_engine.dir/src/Shader.cpp.obj"
+  "CMakeFiles/boiling_engine.dir/src/Shader.cpp.obj.d"
   "CMakeFiles/boiling_engine.dir/src/Transform.cpp.obj"
   "CMakeFiles/boiling_engine.dir/src/Transform.cpp.obj.d"
   "CMakeFiles/boiling_engine.dir/src/Window.cpp.obj"

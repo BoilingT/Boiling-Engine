@@ -40,5 +40,11 @@
   "command": "C:/LLVM/bin/clang++.exe  @CMakeFiles/boiling_engine.dir/includes_CXX.rsp -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles/boiling_engine.dir/src/Game.cpp.obj -c \"C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Game.cpp\"",
   "file": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Game.cpp",
   "output": "CMakeFiles/boiling_engine.dir/src/Game.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/build",
+  "command": "C:/LLVM/bin/clang++.exe  @CMakeFiles/boiling_engine.dir/includes_CXX.rsp -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles/boiling_engine.dir/src/Shader.cpp.obj -c \"C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Shader.cpp\"",
+  "file": "C:/Users/tobbe/Documents/Programming/C++/OpenGL Engines/Boiling-Engine/src/Shader.cpp",
+  "output": "CMakeFiles/boiling_engine.dir/src/Shader.cpp.obj"
 }
 ]
